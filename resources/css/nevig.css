@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.header h1, h2 {
+    margin-top: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    word-spacing: :4px;
+    letter-spacing: 8px;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+
+.header p {
+    font-size: 28px;
+    letter-spacing: 10px;
+    margin: 20px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+
+.get-started {
+    margin: 50px;
+    margin-left: 45%;
+    background-color: #5BC0DE;
+    color: white;
+    border: 2px solid #333;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer; 
+}
+
+.get-started:hover {
+    background-color: #0089CC;
+}
+
+
+.navigation {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  float: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navigation a {
+  float: left;
+  color: #2B2B2B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 6px;
+  
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+.button-1 {
+    margin-top: 20px;
+    margin-left: 43%;
+    background-color: #FFFFFF;
+    float: center;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.resume {
+    float: center;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-color: #000000;
+    padding: 10px 15px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.about img {
+    margin: 30px;
+    width: 70%;
+    height: 410px;
+    border-radius: 20px;
+}
+
+
+
+.paragraph p {
+    margin: 40px;
+    font-size: 18px;
+    color: #494949;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.row {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.column {
+    float: left;
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+    padding: 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.column:hover .overlay {
+  height: 30%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
