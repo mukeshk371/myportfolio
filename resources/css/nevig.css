@@ -68,32 +68,19 @@ body {
 }
 
 
-
-
-.button-1 {
-    margin-top: 20px;
-    margin-left: 43%;
-    background-color: #FFFFFF;
-    float: center;
-    border: 1px solid #333;
-    padding: 10px 30px;
-    border-radius: 30px;
-    font-size: 30px;
-}
-
-
 .about-me {
+    margin-top: 2%;
     background-color: #FFFFFF;
     float: center;
     border: 1px solid #333;
-    padding: 10px 30px;
+    padding: 10px 25px;
     border-radius: 30px;
     font-size: 30px;
 }
 
 .resume {
     border-radius: 10px;
-    background-color: #000000;
+    background-color: #0E2038;
     padding: 10px 15px;
     color: white;
     font-size: 25px;

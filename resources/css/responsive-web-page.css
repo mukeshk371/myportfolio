@@ -22,17 +22,25 @@
     float: center;
   }
 
+  .about img {
+    width: 80%;
+  }
+
+  .header p {
+    font-size: 19px;
+  }
+
   .header h1 {
     font-size: 18px;
   }
 
 
   .header h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .resume {
-  	float: left;
+  	float: center;
   	width: 100%;
   }
 
@@ -67,7 +75,6 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 @media screen and (max-width : 760px){
-    
     
     a {
         width: 100%;
