@@ -38,4 +38,35 @@
 
 
 
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #5F5F5F;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+@media screen and (max-width : 760px){
+    
+    
+    a {
+        width: 100%;
+    }
+  
+    .show-menu {
+        display:block;
+    }
+}
+
+
 
