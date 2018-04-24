@@ -115,6 +115,7 @@ body {
 }
 
 
+
 .row {
   margin-left: 4%;
   margin-right: 4%;
@@ -143,6 +144,8 @@ body {
   height: 100%;
 }
 
+
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -155,9 +158,11 @@ body {
   transition: .5s ease;
 }
 
+
 .column:hover .overlay {
   height: 30%;
 }
+
 
 .text {
   color: white;

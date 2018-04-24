@@ -8,9 +8,7 @@
   .active, 
   .navigation-btn, 
   .button-1, 
-  .contact-btn, 
-  .name, 
-  .name1, 
+  .contact-btn,  
   .message, 
   .my-work, 
   .skills, 
@@ -44,6 +42,15 @@
   	width: 100%;
   }
 
+  .name {
+    float: center;
+    width: 100%;
+  }
+
+  .name1 {
+    float: center;
+    width: 100%;
+  }
 
   .column {
   	width: 100%;
