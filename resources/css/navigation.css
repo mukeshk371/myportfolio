@@ -35,7 +35,6 @@
     margin-bottom: 4%; 
     border-radius: 6px;
     float: center;
-    margin-left: 15px;
     background-color: #F7F7F7;
     font-family: "Ubuntu", sans-serif;
     padding: 10px 20px;
@@ -164,6 +163,15 @@
 .contact-div {
     margin: auto;
     width: 80%;
+}
+
+
+.navigation {
+    z-index: 1;
+}
+
+.column img {
+    z-index: -1;
 }
 
 

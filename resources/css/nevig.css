@@ -16,7 +16,7 @@ body {
 }
 
 
-.header p {
+.header h3 {
     font-size: 28px;
     letter-spacing: 10px;
     margin: 20px;
@@ -53,7 +53,7 @@ body {
 }
 
 .navigation a {
-  float: left;
+  float: center;
   color: #2B2B2B;
   text-align: center;
   padding: 14px 16px;

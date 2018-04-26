@@ -4,20 +4,24 @@
   .about, 
   .paragraph, 
   .navigation, 
-  .img, 
-  .active, 
-  .navigation-btn, 
-  .button-1, 
-  .contact-btn,  
+  .img,   
   .message, 
-  .my-work, 
-  .skills, 
-  .about-me,
-  .get-started,
-  .send
+  .resume-btn
    {
     width:100%;
     float: center;
+  }
+
+  .button-1, .contact-btn, .skills, .my-work, .about-me {
+    float: center;
+    width: 50%;
+    font-size: 16px;
+  }
+
+  .active, .navigation-btn {
+    width: 35%;
+    float: center;
+    font-size: 10px;
   }
 
   .about img {
@@ -25,7 +29,7 @@
   }
 
   .header p {
-    font-size: 19px;
+    font-size: 10px;
   }
 
   .header h1 {
@@ -34,12 +38,17 @@
 
 
   .header h2 {
-    font-size: 22px;
+    font-size: 23px;
+  }
+
+
+  .header h3 {
+    font-size: 16px;
   }
 
   .resume {
   	float: center;
-  	width: 100%;
+  	width: 40%; 
   }
 
   .name {
@@ -63,34 +72,44 @@
 
 
 
-.show-menu {
-    font-family: "Ubuntu", sans-serif;
-    text-decoration: none;
-    color: white;
-    background: #5F5F5F;
-    text-align: center;
-    padding: 10px 0;
-    display: none;
-}
-
-input[type=checkbox]{
-    display: none;
-}
-
-input[type=checkbox]:checked ~ #menu{
+@media screen and (max-width: 600px) {
+  .navigation a {display: none;}
+  .navigation a.icon {
+    float: center;
     display: block;
+  }
 }
 
-@media screen and (max-width : 760px){
-    
-    a {
-        width: 100%;
-    }
-  
-    .show-menu {
-        display:block;
-    }
+@media screen and (max-width: 600px) {
+  .navigation.responsive {
+    position: relative; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  .navigation.responsive .icon {
+    position: relative;
+    float: none;
+    right: 0;
+    top: 0;
+  }
+
+  .navigation.responsive a {
+    position: relative;
+    float: none;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
 }
 
+
+
+.navigation .icon {
+  display: none;
+}
 
 

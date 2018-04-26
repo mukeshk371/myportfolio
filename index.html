@@ -7,16 +7,19 @@
 	<link rel="stylesheet" text="text/css" href="resources/css/nevig.css">
 	<link rel="stylesheet" text="text/css" href="resources/css/navigation.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/responsive-web-page.css">
+	<!--<link rel="stylesheet" type="text/css" href="resources/css/star-background.css">-->
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+
 	<div class="header" style="height:60%; width:100%; background-color: #121922;">
+
 		<div class="stars"></div>
 <div class="twinkling"></div>
 		<h1>Hello I'm</h1>
 		<h2>MUKESH KUMAR</h2>
-		<p>Front End Developer / UI Developer</p>
+		<h3>Front End Developer / UI Developer</h3>
 		<br/>
 
 		<div align="center">
@@ -24,9 +27,9 @@
 		</div>	
 	</div>
 
-	<label for="show-menu" class="show-menu">Show Menu</label>
-	<input type="checkbox" id="show-menu" role="button">
-	<div class="navigation">
+	
+	<div class="navigation" id="myTopnav">
+		<a href="javascript:void(0);" style="font-size:15px;" align="center" class="icon" onclick="myFunction()">&#9776;</a>
 		<a href="#home">Home</a>
 		<a href="#home">About Me</a>
 		<a href="#home">Skills</a>
@@ -55,7 +58,7 @@ I enjoy building everything from small business sites to rich interactive websit
 <p>
 "User Interface Designer with passion for designing and functional user experiences."
 </p>
-	<div align="center">
+	<div class="resume-btn" align="center">
 		<button class="resume">RESUME</button>
 	</div>	
 </div>
@@ -79,7 +82,7 @@ I enjoy building everything from small business sites to rich interactive websit
 	
 	<br/>
 
-	<div align="center">
+	<div class="buttons" align="center">
 		<button class="active">ALL</button>
 		<button class="navigation-btn">HTML & CSS</button>
 		<button class="navigation-btn">RESPONSIVE</button>
@@ -181,5 +184,19 @@ I enjoy building everything from small business sites to rich interactive websit
 
      	<p class="footer" align="center">© 2018 Designed by Mukesh Kumar . All Rights Reserved</p>
 </form>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navigation") {
+        x.className += " responsive";
+    } else {
+        x.className = "navigation";
+    }
+}
+</script>
+
+
 </body>	
 </html>
