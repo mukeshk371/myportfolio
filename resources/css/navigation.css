@@ -129,10 +129,19 @@
 }
 
 
+.skillsimage {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("img/skill.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
-
-.skillsimage img {
-    width: 100%;
+.container h3 {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 6px;
 }
 
 
